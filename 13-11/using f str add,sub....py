@@ -1,0 +1,15 @@
+import math
+a=int(input('enter 1st integer number:'))
+b=int(input('enter 2nd integer number:'))
+print(f'{a}+{b}={a+b}')
+print(f'{a}-{b}={a-b}')
+print(f'{a}*{b}={a*b}')
+print(f'{a}/{b}={a/b}')
+print(f'{a}%{b}={a%b}')
+print(f'max({a},{b})= {max(a,b)}')
+print(f'min({a},{b}= {min(a,b)}')
+print(f'{a}^{b}={a**b}')
+print(f'sqrt{a}={math.sqrt(a)}')
+print(f'gcd({a},{b})={math.gcd(a,b)}')
+print(f'fact{a}={math.fact(a)}')
+

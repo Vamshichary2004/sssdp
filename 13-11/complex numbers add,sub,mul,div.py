@@ -1,0 +1,6 @@
+a=complex(input('enter first complex number:'))
+b=complex(input('enter second complex number:'))
+print(f'sum:{a+b}.2f')
+print(f'difference:{a-b}.2f')
+print(f'product:{a*b}.2f')
+print(f'division:{a/b}.2f')
