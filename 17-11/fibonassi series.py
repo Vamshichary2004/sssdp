@@ -1,0 +1,10 @@
+x=int(input('enter any input:'))
+a=0
+b=1
+i=1
+while(i<=x):
+    print('fibonacci series:',a, end='\n')
+    c=a+b
+    a=b
+    b=c
+    i=i+1
