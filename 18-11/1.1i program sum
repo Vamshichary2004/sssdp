@@ -1,0 +1,10 @@
+n=int(input('How many terms would you like to add:'))
+sum=0
+for i in range(1,n+1):
+    sum=sum+1.1*i
+print('sum:',sum)
+
+'''
+How many terms would you like to add:9
+sum: 49.50000000000001
+'''
