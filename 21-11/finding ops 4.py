@@ -1,0 +1,16 @@
+def    f1():
+        print('Hyd')
+        print('Sec')
+        print('Cyb')
+# End  of  the  function
+print('Begin')
+print(type(f1))
+print(id(f1))
+print('End')
+
+'''
+Begin
+<class 'function'>
+2249872423424
+End
+'''

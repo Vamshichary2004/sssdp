@@ -1,0 +1,5 @@
+#f1() #f1 call must and should be define after
+def   f1():
+        print('Hello')
+print(f1())  
+print(f1)

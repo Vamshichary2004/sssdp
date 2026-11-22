@@ -1,0 +1,13 @@
+sum =  ctr = 0
+while  True:
+	try:
+		x = eval(input('Enter input  (ctrl + z  to  stop)  :  '))  
+		(sum:=sum+x,ctr:=ctr+1) 
+	except  EOFError:
+		try:
+			print('Average : ' , sum / ctr)  
+			exit()
+		except  ZeroDivisionError:
+			print('Enter  at  least  one  input')
+	except  NameError , TypeError:
+		print('Input  cannot  be  string')
